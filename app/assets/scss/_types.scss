@@ -1,0 +1,32 @@
+.nopadding,
+.column.nopadding{
+	padding: 0 0 0 0;
+}
+
+.nopaddingleft,
+.column.nopaddingleft{
+	padding-left: 0;
+}
+
+.nopaddingright,
+.column.nopaddingright{
+	padding-right: 0;
+}
+
+body {
+	font-size: 16px;
+}
+
+figure{
+	margin: 0;
+}
+
+form{
+	.help-block{
+		@extend %display-block;
+		@extend %position-relative;
+		color: $white;
+		padding: 2px 10px 0;
+		margin: -17px 0 10px 0;
+	}
+}
